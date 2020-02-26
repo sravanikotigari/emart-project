@@ -1,0 +1,86 @@
+pass:
+
+$2a$10$SwFzkmtE/6n5OiNfCFcyJuAoC7penacrWKyOvDjwoZMxaNS05NKti
+
+input seller:
+
+{
+	
+	"username":"sravani",
+	"password":"abcdef",
+	"companyname":"traders",
+	"gstin":5.67,
+	"briefaboutcompany":"murthyco.Ltd",
+	"website":"www.traders.com",
+	"emailId":"sravs90321@gmail.com",
+	"contactnumber":"+6746424896",
+	"address":"vandalur,chennai,tamilnadu"
+	
+	
+}
+
+output seller :
+
+{
+    "sellerid": 1,
+    "username": "sravani",
+    "password": "$2a$10$SwFzkmtE/6n5OiNfCFcyJuAoC7penacrWKyOvDjwoZMxaNS05NKti",
+    "companyname": "traders",
+    "gstin": 5.67,
+    "briefaboutcompany": "murthyco.Ltd",
+    "website": "www.traders.com",
+    "emailId": "sravs90321@gmail.com",
+    "contactnumber": "+6746424896",
+    "address": "vandalur,chennai,tamilnadu"
+}
+
+
+login seller 
+
+input :
+
+{
+	
+	"username":"sravani",
+	"password":"abcdef"
+	
+	
+	
+}
+
+
+output :
+
+
+{
+    "status": 200,
+    "message": "success",
+    "result": {
+        "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXZhbiIsInNjb3BlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9XSwiaXNzIjoiaHR0cDovL2RldmdsYW4uY29tIiwiaWF0IjoxNTgyNzE1MTUxLCJleHAiOjE1ODI3MzMxNTF9.zBmzErVVT4hRB-EOloMDyZ_SZKgz1en6DBNJJA_n0ao",
+        "username": "sravani"
+    }
+}
+
+login to get seller :
+
+Input :
+
+Authorization    Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXZhbiIsInNjb3BlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9XSwiaXNzIjoiaHR0cDovL2RldmdsYW4uY29tIiwiaWF0IjoxNTgyNzE1MTUxLCJleHAiOjE1ODI3MzMxNTF9.zBmzErVVT4hRB-EOloMDyZ_SZKgz1en6DBNJJA_n0ao
+
+
+Output :
+
+{
+    "sellerid": 1,
+    "username": "sravani",
+    "password": "$2a$10$SwFzkmtE/6n5OiNfCFcyJuAoC7penacrWKyOvDjwoZMxaNS05NKti",
+    "companyname": "traders",
+    "gstin": 5.67,
+    "briefaboutcompany": "murthyco.Ltd",
+    "website": "www.traders.com",
+    "emailId": "pavan90321@gmail.com",
+    "contactnumber": "+6746424896",
+    "address": "vandalur,chennai,tamilnadu"
+}
+
+
